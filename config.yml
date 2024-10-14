@@ -35,10 +35,10 @@ params:
   buildDate: 2024-10-12 # 建站日期
   
   socials: # 导航
-    - name: 标签
-      link: /tags/
-    - name: 博客
-      link: /blog/
+    # - name: 标签
+    #   link: /tags/
+    # - name: 博客
+    #   link: /blog/
     # - name: 周刊
     #   link: /categories/weekly/
     # - name: 项目
