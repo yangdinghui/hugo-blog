@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories | halo的博客</title>
+    <link>http://localhost:1313/categories/</link>
+      <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <description>无人扶我青云志，我自踏雪至山巅。一名 Web 前端开发工程师，热爱生活。</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 04 Oct 2024 00:00:00 +0000</lastBuildDate>
+  </channel>
+</rss>

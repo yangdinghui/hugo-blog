@@ -1,6 +1,7 @@
 import os
 import re
 'scp public.zip root@117.72.36.202:/soft/data/hugoblog'
+'scp -r ./public root@117.72.36.202:/soft/data/hugoblog'
 
 def extract_slug_and_title(file_content):
     # 使用正则表达式提取 Front Matter 中的 slug 和 title
