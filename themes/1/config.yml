@@ -31,7 +31,7 @@ params:
   logo:  https://imgurl.zishu.me/author.webp # 博主头像
   author: halo # 博主昵称
   favicon:  https://imgurl.zishu.me/favicon.ico # 网站 favicon 图标
-  buildDate: 2020-06-14 # 建站日期
+  buildDate: 2024-10-12 # 建站日期
   
   socials: # 导航
     - name: 技术
@@ -40,8 +40,8 @@ params:
       link: /categories/随笔/
     # - name: 周刊
     #   link: /categories/weekly/
-    - name: 项目
-      link: /projects/
+    # - name: 项目
+    #   link: /projects/
     - name: 留言
       link: /message/
     - name: 关于

@@ -18,7 +18,7 @@ const author = {
 }
 ```
 
-![](https://raw.githubusercontent.com/yangdinghui/yangdinghui/main/github-user-contribution.svg)
+![](https://raw.githubusercontent.com/yangdinghui/yangdinghui/refs/heads/output/github-contribution-grid-snake.svg)
 
 我的 [计划单](/plan/)。
 

@@ -2,46 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>随笔 | halo的博客</title>
-    <link>http://halo.rebotgpt.top/categories/%E9%9A%8F%E7%AC%94/</link>
-      <atom:link href="http://halo.rebotgpt.top/categories/%E9%9A%8F%E7%AC%94/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/categories/%E9%9A%8F%E7%AC%94/</link>
+      <atom:link href="http://localhost:1313/categories/%E9%9A%8F%E7%AC%94/index.xml" rel="self" type="application/rss+xml" />
     <description>无人扶我青云志，我自踏雪至山巅。一名 Web 前端开发工程师，热爱生活。</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 27 Dec 2021 00:00:00 +0000</lastBuildDate>
-    <item>
-      <title>网易云音乐年度报告分享</title>
-      <link>http://halo.rebotgpt.top/blog/95.html/</link>
-      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>http://halo.rebotgpt.top/blog/95.html/</guid>
-      <description>&lt;p&gt;我真的老了吗？看看我的网易云音乐年度报告分享吧！&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;图片&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;图片&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;img src=&#34;https://imgurl.zishu.me/images/old/2022/01/05/e4a09e27ce03402b785f6146b3e7bd4c.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;img src=&#34;https://imgurl.zishu.me/images/old/2022/01/05/edab7be18b8a86446eecca5ba12cc957.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;img src=&#34;https://imgurl.zishu.me/images/old/2022/01/05/4874723c4b9c811e5381a24fac83858e.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;img src=&#34;https://imgurl.zishu.me/images/old/2022/01/05/bd5919404434a112f160995e65a78a3f.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;img src=&#34;https://imgurl.zishu.me/images/old/2022/01/05/d1b4762890c69025fce02bd713623577.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;img src=&#34;https://imgurl.zishu.me/images/old/2022/01/05/8bc61618b976b4c0a2498897ab4ac519.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-    </item>
-    
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 07 May 2021 00:00:00 +0000</lastBuildDate>
     <item>
       <title>呼吸之野</title>
-      <link>http://halo.rebotgpt.top/blog/65.html/</link>
+      <link>http://localhost:1313/blog/65.html/</link>
       <pubDate>Fri, 07 May 2021 00:00:00 +0000</pubDate>
-      <guid>http://halo.rebotgpt.top/blog/65.html/</guid>
+      <guid>http://localhost:1313/blog/65.html/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;2021 许嵩第 8 张全创作专辑《呼吸之野》首支曲目《乌鸦》5 月 7 日正式发行。&lt;/p&gt;
 &lt;/blockquote&gt;

@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Github | halo的博客</title>
-    <link>http://halo.rebotgpt.top/tags/github/</link>
-      <atom:link href="http://halo.rebotgpt.top/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/github/</link>
+      <atom:link href="http://localhost:1313/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <description>无人扶我青云志，我自踏雪至山巅。一名 Web 前端开发工程师，热爱生活。</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 22 Oct 2022 00:00:00 +0000</lastBuildDate>
     <item>
       <title>安装一个基于 Github 的静态图床程序</title>
-      <link>http://halo.rebotgpt.top/blog/172.html/</link>
+      <link>http://localhost:1313/blog/172.html/</link>
       <pubDate>Sat, 22 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>http://halo.rebotgpt.top/blog/172.html/</guid>
+      <guid>http://localhost:1313/blog/172.html/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;demo: &lt;a href=&#34;https://img.zburu.com/&#34;&gt;https://img.zburu.com/&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;

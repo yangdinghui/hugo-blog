@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 <meta charset="utf-8" />
 <meta name="generator" content="Hugo 0.135.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="toTop" content="true">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="author" content="halo" />
-<meta property="og:url" content="http://halo.rebotgpt.top/blog/213.html/" />
-<link rel="canonical" href="http://halo.rebotgpt.top/blog/213.html/" /><link rel="apple-touch-icon" href="https://imgurl.zishu.me/favicon.ico" />
-<link rel="icon" href="https://imgurl.zishu.me/favicon.ico" />
-<link rel="shortcut" href="https://imgurl.zishu.me/favicon.ico" /><link rel="alternate" type="application/atom+xml" href="http://halo.rebotgpt.top/index.xml" title="halo的博客">
+<meta property="og:url" content="http://localhost:1313/blog/213.html/" />
+<link rel="canonical" href="http://localhost:1313/blog/213.html/" /><link rel="apple-touch-icon" href="https://raw.githubusercontent.com/yangdinghui/Code-Guide/master/pic/icons-cat.gif" />
+<link rel="icon" href="https://raw.githubusercontent.com/yangdinghui/Code-Guide/master/pic/icons-cat.gif" />
+<link rel="shortcut" href="https://raw.githubusercontent.com/yangdinghui/Code-Guide/master/pic/icons-cat.gif" /><link rel="alternate" type="application/atom+xml" href="http://localhost:1313/index.xml" title="halo的博客">
 <script type="application/ld+json">
 {
 "@context" : "http://schema.org",
 "@type" : "BlogPosting",
 "mainEntityOfPage": {
 "@type": "WebPage",
-"@id": "http:\/\/halo.rebotgpt.top\/"
+"@id": "http:\/\/localhost:1313\/"
 },
 "articleSection" : "blog",
 "name" : "hugo 的一些模板语法",
@@ -32,7 +32,7 @@
 "copyrightYear" : "2023",
 "datePublished": "2023-11-15 00:00:00 \u002b0000 UTC",
 "dateModified" : "2023-11-15 00:00:00 \u002b0000 UTC",
-"url" : "http:\/\/halo.rebotgpt.top\/blog\/213.html\/",
+"url" : "http:\/\/localhost:1313\/blog\/213.html\/",
 "keywords" : [ "hugo", ]
 }
 </script><title>hugo 的一些模板语法 - halo的博客</title>
@@ -44,7 +44,7 @@
 <meta name="description" content="分享一下 hugo 的语法模板，如何获取总文章数和总字数，效果可以参考我的首页。
 {{ $articleCount := len .Site.RegularPages }} {{ $totalWordCount := 0 }} {{ range .Site.Pages }} {{ $totalWordCount = add $totalWordCount .WordCount }} {{ end }} &lt;p&gt;已经写了 {{ $articleCount }} 篇文章，共 {{ $totalWordCount }} 字。&lt;/p&gt; 在首页过滤某个分类。
 {{ $pages := .Site.RegularPages }} {{ $paginator := .Paginate ($pages) }} {{ $count := 0 }} {{ range $paginator.Pages }} {{ $title := .Title }} {{ $summary := .Summary }} {{ if and (not (in .Params.categories &#34;weekly&#34;)) (lt $count 7) }} {{ $count = add $count 1 }} &lt;article class=&#34;post-entry&#34;&gt; &lt;header class=&#34;entry-header&#34;&gt; &lt;h2 class=&#34;entry-hint-parent&#34;&gt;{{ .Title }}&lt;/h2&gt; &lt;/header&gt; &lt;div class=&#34;entry-content&#34;&gt; &lt;p&gt;{{ .Summary }}&lt;/p&gt; &lt;/div&gt; &lt;footer class=&#34;entry-footer&#34;&gt; &lt;time datetime=&#34;{{ .Date.Format &#34; 2006-01-02 15:04:05 MST&#34; }}&#34;&gt;{{ .Date.Format &#34;2006-01-02&#34;}}&lt;/time&gt; &lt;span class=&#34;category&#34;&gt; {{ range $key, $value := .Params.categories -}} {{- if $key }}, {{ end }} {{ . }} {{- end }} &lt;/span&gt; &lt;/footer&gt; &lt;a class=&#34;entry-link&#34; href=&#34;{{ .RelPermalink }}&#34;&gt;&lt;/a&gt; &lt;/article&gt; {{ end }} {{ end }} " />
-<meta property="og:locale" content="en-us" /><meta property="og:image" content="https://imgurl.zishu.me/favicon.ico" />
+<meta property="og:locale" content="en-us" /><meta property="og:image" content="https://raw.githubusercontent.com/yangdinghui/Code-Guide/master/pic/icons-cat.gif" />
 
 
 <link rel="stylesheet" href="/css/base.css">
@@ -143,7 +143,8 @@
     </article>
 
     
-    <div class="comments">
+    <div style="padding:20px 0"></div>
+<div class="comments">
   <div class="giscus"></div>
 </div>
 <script src="https://giscus.app/client.js"

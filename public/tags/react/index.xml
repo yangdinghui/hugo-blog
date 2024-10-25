@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>React | halo的博客</title>
-    <link>http://halo.rebotgpt.top/tags/react/</link>
-      <atom:link href="http://halo.rebotgpt.top/tags/react/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/react/</link>
+      <atom:link href="http://localhost:1313/tags/react/index.xml" rel="self" type="application/rss+xml" />
     <description>无人扶我青云志，我自踏雪至山巅。一名 Web 前端开发工程师，热爱生活。</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 29 Dec 2020 00:00:00 +0000</lastBuildDate>
     <item>
       <title>React 学习笔记（三）</title>
-      <link>http://halo.rebotgpt.top/blog/39.html/</link>
+      <link>http://localhost:1313/blog/39.html/</link>
       <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>http://halo.rebotgpt.top/blog/39.html/</guid>
+      <guid>http://localhost:1313/blog/39.html/</guid>
       <description>&lt;p&gt;来源于：&lt;a href=&#34;https://react.docschina.org/docs/forms.html&#34;&gt;https://react.docschina.org/docs/forms.html&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;一表单&#34;&gt;一、表单&lt;/h2&gt;
 &lt;p&gt;在 React 中，html 表单元素的工作方式和其他的 DOM 元素不太一样，因为表单内部通常会保持一些内部的 &lt;code&gt;state&lt;/code&gt;，比如下面这个纯 html 表单只接受一个名称：&lt;/p&gt;
@@ -225,9 +225,9 @@
     
     <item>
       <title>React －－万物皆可组件</title>
-      <link>http://halo.rebotgpt.top/blog/37.html/</link>
+      <link>http://localhost:1313/blog/37.html/</link>
       <pubDate>Mon, 21 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>http://halo.rebotgpt.top/blog/37.html/</guid>
+      <guid>http://localhost:1313/blog/37.html/</guid>
       <description>&lt;h2 id=&#34;一react-组件是什么&#34;&gt;一、React 组件是什么？&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;组件，从概念上类似于 javascript 函数，他接受任意入参&lt;code&gt;（props）&lt;/code&gt;，并返回作用于描述页面展示内容的 React 元素。&lt;/p&gt;

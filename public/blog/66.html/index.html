@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 <meta charset="utf-8" />
 <meta name="generator" content="Hugo 0.135.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="toTop" content="true">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="author" content="halo" />
-<meta property="og:url" content="http://halo.rebotgpt.top/blog/66.html/" />
-<link rel="canonical" href="http://halo.rebotgpt.top/blog/66.html/" /><link rel="apple-touch-icon" href="https://imgurl.zishu.me/favicon.ico" />
-<link rel="icon" href="https://imgurl.zishu.me/favicon.ico" />
-<link rel="shortcut" href="https://imgurl.zishu.me/favicon.ico" /><link rel="alternate" type="application/atom+xml" href="http://halo.rebotgpt.top/index.xml" title="halo的博客">
+<meta property="og:url" content="http://localhost:1313/blog/66.html/" />
+<link rel="canonical" href="http://localhost:1313/blog/66.html/" /><link rel="apple-touch-icon" href="https://raw.githubusercontent.com/yangdinghui/Code-Guide/master/pic/icons-cat.gif" />
+<link rel="icon" href="https://raw.githubusercontent.com/yangdinghui/Code-Guide/master/pic/icons-cat.gif" />
+<link rel="shortcut" href="https://raw.githubusercontent.com/yangdinghui/Code-Guide/master/pic/icons-cat.gif" /><link rel="alternate" type="application/atom+xml" href="http://localhost:1313/index.xml" title="halo的博客">
 <script type="application/ld+json">
 {
 "@context" : "http://schema.org",
 "@type" : "BlogPosting",
 "mainEntityOfPage": {
 "@type": "WebPage",
-"@id": "http:\/\/halo.rebotgpt.top\/"
+"@id": "http:\/\/localhost:1313\/"
 },
 "articleSection" : "blog",
 "name" : "网站引入 iframe 视频，如何实现高度自适应？",
@@ -32,7 +32,7 @@
 "copyrightYear" : "2021",
 "datePublished": "2021-05-09 00:00:00 \u002b0000 UTC",
 "dateModified" : "2021-05-09 00:00:00 \u002b0000 UTC",
-"url" : "http:\/\/halo.rebotgpt.top\/blog\/66.html\/",
+"url" : "http:\/\/localhost:1313\/blog\/66.html\/",
 "keywords" : [ "博客","css", ]
 }
 </script><title>网站引入 iframe 视频，如何实现高度自适应？ - halo的博客</title>
@@ -64,7 +64,7 @@ pc 端
 $(&#39;iframe&#39;).wrap(&#39;&lt;p class=&#34;iframe&#34;&gt;&lt;/p&gt;&#39;) 在 css 文件的底部加上： .iframe{ position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; } .iframe iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; } 这个时候再访问带有 iframe 视频的网页，不管宽度如何变化，高度可以随视频自适应。
 例如这个网页，可以看一下效果：https://imhan.cn/posts/20210507.html
 " />
-<meta property="og:locale" content="en-us" /><meta property="og:image" content="https://imgurl.zishu.me/favicon.ico" />
+<meta property="og:locale" content="en-us" /><meta property="og:image" content="https://raw.githubusercontent.com/yangdinghui/Code-Guide/master/pic/icons-cat.gif" />
 
 
 <link rel="stylesheet" href="/css/base.css">
@@ -162,7 +162,8 @@ $(&#39;iframe&#39;).wrap(&#39;&lt;p class=&#34;iframe&#34;&gt;&lt;/p&gt;&#39;) �
     </article>
 
     
-    <div class="comments">
+    <div style="padding:20px 0"></div>
+<div class="comments">
   <div class="giscus"></div>
 </div>
 <script src="https://giscus.app/client.js"

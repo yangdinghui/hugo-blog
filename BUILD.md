@@ -25,30 +25,6 @@ hugo serve
 hugo
 ```
 
-可以通过 Netlify 部署上传到 GitHub 仓库的代码。
-
-
-## 3.插件脚本
-
-**1. 自动生成 md 文件，备份文章目录。**
-
-```shell
-py toc.py
-```
-
-## 4.联系我
-
-如对博客内容，排版等有疑问、建议或者其他问题，欢迎联系我！
-
-- 邮箱：tomatoes107@163.com
-- 留言：https://zishu.me/message/
-
-
-## 5.Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=dlzmoe/blog&type=Date)](https://star-history.com/#dlzmoe/blog&Date)
-
-
-## 6.LICENSE
+## 3.LICENSE
 
 开源协议：[Apache-2.0 license](./LICENSE)
