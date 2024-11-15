@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vue | halo的博客</title>
-    <link>http://localhost:1313/tags/vue/</link>
-      <atom:link href="http://localhost:1313/tags/vue/index.xml" rel="self" type="application/rss+xml" />
-    <description>无人扶我青云志，我自踏雪至山巅。一名 Web 前端开发工程师，热爱生活。</description>
+    <link>http://halo.rebotgpt.top/tags/vue/</link>
+      <atom:link href="http://halo.rebotgpt.top/tags/vue/index.xml" rel="self" type="application/rss+xml" />
+    <description>多喝水，一名擅长摸鱼的开发者。</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 23 Feb 2024 00:00:00 +0000</lastBuildDate>
     <item>
       <title>无法从非 EcmaScript 模块导入命名导出</title>
-      <link>http://localhost:1313/blog/218.html/</link>
+      <link>http://halo.rebotgpt.top/blog/12.html/</link>
       <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/218.html/</guid>
+      <guid>http://halo.rebotgpt.top/blog/12.html/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/markdown-it/markdown-it&#34;&gt;https://github.com/markdown-it/markdown-it&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;markdown-it 是一个基于 vue 的解析 markdown 语法的库。&lt;/p&gt;
 &lt;p&gt;在 vue 中引入 markdown-it 模块时遇到一个问题，dev 开发运行时报出以下错误，无法从非 EcmaScript 模块导入命名导出。&lt;/p&gt;

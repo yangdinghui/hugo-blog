@@ -1,10 +1,10 @@
 ---
-slug: 170
+slug: 8
 title:  hugo 一键打包并上传 github
 date: 2022-10-14
-categories: 
+categories:
   - 技术
-tags: 
+tags:
   - 博客
 ---
 

@@ -2,113 +2,137 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>http://halo.rebotgpt.top/blog/</loc>
+    <lastmod>2024-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://halo.rebotgpt.top/categories/</loc>
+    <lastmod>2024-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://halo.rebotgpt.top/tags/git/</loc>
+    <lastmod>2024-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://halo.rebotgpt.top/blog/15.html/</loc>
+    <lastmod>2024-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://halo.rebotgpt.top/</loc>
+    <lastmod>2024-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://halo.rebotgpt.top/categories/%E6%8A%80%E6%9C%AF/</loc>
+    <lastmod>2024-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://halo.rebotgpt.top/tags/%E4%BF%84%E6%B3%95%E6%88%98%E4%BA%89/</loc>
+    <lastmod>2024-11-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://halo.rebotgpt.top/blog/14.html/</loc>
+    <lastmod>2024-11-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://halo.rebotgpt.top/categories/%E6%9D%82%E8%B0%88/</loc>
+    <lastmod>2024-11-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://halo.rebotgpt.top/tags/%E7%8C%ABmeme/</loc>
+    <lastmod>2024-11-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://halo.rebotgpt.top/tags/mq/</loc>
+    <lastmod>2024-11-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://halo.rebotgpt.top/blog/13.html/</loc>
+    <lastmod>2024-11-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://halo.rebotgpt.top/tags/js/</loc>
     <lastmod>2024-02-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://halo.rebotgpt.top/tags/vue/</loc>
     <lastmod>2024-02-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://halo.rebotgpt.top/blog/12.html/</loc>
     <lastmod>2024-02-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/js/</loc>
-    <lastmod>2024-02-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/vue/</loc>
-    <lastmod>2024-02-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2024-02-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/218.html/</loc>
-    <lastmod>2024-02-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/hugo/</loc>
+    <loc>http://halo.rebotgpt.top/tags/hugo/</loc>
     <lastmod>2023-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/213.html/</loc>
+    <loc>http://halo.rebotgpt.top/blog/11.html/</loc>
     <lastmod>2023-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/github/</loc>
+    <loc>http://halo.rebotgpt.top/tags/github/</loc>
     <lastmod>2022-10-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E5%9B%BE%E5%BA%8A/</loc>
+    <loc>http://halo.rebotgpt.top/tags/%E5%9B%BE%E5%BA%8A/</loc>
     <lastmod>2022-10-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/172.html/</loc>
+    <loc>http://halo.rebotgpt.top/blog/10.html/</loc>
     <lastmod>2022-10-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/171.html/</loc>
+    <loc>http://halo.rebotgpt.top/blog/9.html/</loc>
     <lastmod>2022-10-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/170.html/</loc>
+    <loc>http://halo.rebotgpt.top/blog/8.html/</loc>
     <lastmod>2022-10-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E5%8D%9A%E5%AE%A2/</loc>
+    <loc>http://halo.rebotgpt.top/tags/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2022-10-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/146.html/</loc>
+    <loc>http://halo.rebotgpt.top/blog/7.html/</loc>
     <lastmod>2022-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E5%9D%9A%E6%9E%9C%E4%BA%91/</loc>
+    <loc>http://halo.rebotgpt.top/tags/%E5%9D%9A%E6%9E%9C%E4%BA%91/</loc>
     <lastmod>2022-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E7%AC%94%E8%AE%B0/</loc>
+    <loc>http://halo.rebotgpt.top/tags/%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2022-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/145.html/</loc>
+    <loc>http://halo.rebotgpt.top/blog/6.html/</loc>
     <lastmod>2022-06-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/gravatar/</loc>
+    <loc>http://halo.rebotgpt.top/tags/gravatar/</loc>
     <lastmod>2021-12-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/typecho/</loc>
+    <loc>http://halo.rebotgpt.top/tags/typecho/</loc>
     <lastmod>2021-12-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/92.html/</loc>
+    <loc>http://halo.rebotgpt.top/blog/5.html/</loc>
     <lastmod>2021-12-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/css/</loc>
+    <loc>http://halo.rebotgpt.top/tags/css/</loc>
     <lastmod>2021-05-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/66.html/</loc>
+    <loc>http://halo.rebotgpt.top/blog/4.html/</loc>
     <lastmod>2021-05-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/65.html/</loc>
+    <loc>http://halo.rebotgpt.top/blog/3.html/</loc>
     <lastmod>2021-05-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E9%9A%8F%E7%AC%94/</loc>
+    <loc>http://halo.rebotgpt.top/categories/%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2021-05-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E9%9F%B3%E4%B9%90/</loc>
+    <loc>http://halo.rebotgpt.top/tags/%E9%9F%B3%E4%B9%90/</loc>
     <lastmod>2021-05-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/react/</loc>
+    <loc>http://halo.rebotgpt.top/tags/react/</loc>
     <lastmod>2020-12-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/39.html/</loc>
+    <loc>http://halo.rebotgpt.top/blog/2.html/</loc>
     <lastmod>2020-12-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/37.html/</loc>
+    <loc>http://halo.rebotgpt.top/blog/1.html/</loc>
     <lastmod>2020-12-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E7%BB%84%E4%BB%B6/</loc>
+    <loc>http://halo.rebotgpt.top/tags/%E7%BB%84%E4%BB%B6/</loc>
     <lastmod>2020-12-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>http://halo.rebotgpt.top/search/</loc>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://halo.rebotgpt.top/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/serve/</loc>
+    <loc>http://halo.rebotgpt.top/serve/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://halo.rebotgpt.top/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/message/</loc>
+    <loc>http://halo.rebotgpt.top/message/</loc>
   </url><url>
-    <loc>http://localhost:1313/plan/</loc>
+    <loc>http://halo.rebotgpt.top/plan/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/</loc>
+    <loc>http://halo.rebotgpt.top/projects/</loc>
   </url><url>
-    <loc>http://localhost:1313/riding/</loc>
+    <loc>http://halo.rebotgpt.top/riding/</loc>
   </url>
 </urlset>

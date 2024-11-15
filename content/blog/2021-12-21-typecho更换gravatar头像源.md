@@ -1,10 +1,10 @@
 ---
-slug: 92
+slug: 5
 title: typecho 更换 gravatar 头像源
 date: 2021-12-21
-categories: 
+categories:
   - 技术
-tags: 
+tags:
   - typecho
   - gravatar
 ---

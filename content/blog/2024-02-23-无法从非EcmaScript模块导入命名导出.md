@@ -1,10 +1,10 @@
 ---
-slug: 218
+slug: 12
 title: 无法从非 EcmaScript 模块导入命名导出
 date: 2024-02-23
-categories: 
+categories:
   - 技术
-tags: 
+tags:
   - vue
   - js
 ---

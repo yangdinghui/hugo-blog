@@ -1,10 +1,10 @@
 ---
-slug: 171
+slug: 9
 title:  localStorage 的相关运用
 date: 2022-10-20
-categories: 
+categories:
   - 技术
-tags: 
+tags:
   - js
 ---
 
@@ -40,9 +40,8 @@ const arr = JSON.parse(localStorage.getItem("key"));
 
 ```js
 // 清除本地存储中的所有值
-localStorage.clear(); 
+localStorage.clear();
 
 // 本地存储中删除特定项
 localStorage.removeItem(key);
 ```
-

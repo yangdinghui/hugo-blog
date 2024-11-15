@@ -1,6 +1,6 @@
 {
   "origins": [
-    "http://halo.rebotgpt.top"
+    "http://localhost:1313"
   ],
   "defaultCommentOrder": "newest"
 }

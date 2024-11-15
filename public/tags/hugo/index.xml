@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo | halo的博客</title>
-    <link>http://localhost:1313/tags/hugo/</link>
-      <atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
-    <description>无人扶我青云志，我自踏雪至山巅。一名 Web 前端开发工程师，热爱生活。</description>
+    <link>http://halo.rebotgpt.top/tags/hugo/</link>
+      <atom:link href="http://halo.rebotgpt.top/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <description>多喝水，一名擅长摸鱼的开发者。</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 15 Nov 2023 00:00:00 +0000</lastBuildDate>
     <item>
       <title>hugo 的一些模板语法</title>
-      <link>http://localhost:1313/blog/213.html/</link>
+      <link>http://halo.rebotgpt.top/blog/11.html/</link>
       <pubDate>Wed, 15 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/213.html/</guid>
+      <guid>http://halo.rebotgpt.top/blog/11.html/</guid>
       <description>&lt;p&gt;分享一下 hugo 的语法模板，如何获取总文章数和总字数，效果可以参考我的首页。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{ $articleCount := len .Site.RegularPages }}
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{ $totalWordCount := 0 }}

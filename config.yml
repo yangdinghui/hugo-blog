@@ -6,6 +6,10 @@ paginate: 9 # 首页文章显示个数
 summaryLength: 1000000 # 首页文章摘要字数
 hasCJKLanguage: true
 
+services:
+  disqus:
+    shortname: halo8
+
 markup:
   highlight:
     noClasses: false
@@ -28,7 +32,7 @@ permalinks:
 
 params:
   title: halo的博客
-  description: 无人扶我青云志，我自踏雪至山巅。一名 Web 前端开发工程师，热爱生活。
+  description: 多喝水，一名擅长摸鱼的开发者。
   logo: https://raw.githubusercontent.com/yangdinghui/Code-Guide/master/pic/46334335 # 博主头像
   author: halo # 博主昵称
   favicon: https://raw.githubusercontent.com/yangdinghui/Code-Guide/master/pic/icons-cat.gif # 网站 favicon 图标

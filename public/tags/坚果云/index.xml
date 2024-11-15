@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>坚果云 | halo的博客</title>
-    <link>http://localhost:1313/tags/%E5%9D%9A%E6%9E%9C%E4%BA%91/</link>
-      <atom:link href="http://localhost:1313/tags/%E5%9D%9A%E6%9E%9C%E4%BA%91/index.xml" rel="self" type="application/rss+xml" />
-    <description>无人扶我青云志，我自踏雪至山巅。一名 Web 前端开发工程师，热爱生活。</description>
+    <link>http://halo.rebotgpt.top/tags/%E5%9D%9A%E6%9E%9C%E4%BA%91/</link>
+      <atom:link href="http://halo.rebotgpt.top/tags/%E5%9D%9A%E6%9E%9C%E4%BA%91/index.xml" rel="self" type="application/rss+xml" />
+    <description>多喝水，一名擅长摸鱼的开发者。</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 27 Jun 2022 00:00:00 +0000</lastBuildDate>
     <item>
       <title>obsidian:如何使用坚果云进行多端同步？</title>
-      <link>http://localhost:1313/blog/146.html/</link>
+      <link>http://halo.rebotgpt.top/blog/7.html/</link>
       <pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/146.html/</guid>
-      <description>&lt;p&gt;接上篇文章 &lt;a href=&#34;http://localhost:1313/blog/121.html&#34;&gt;《关于我选择笔记系统这件小事》&lt;/a&gt; ，obsidian 的个人体验很棒，我也打算长久使用作为个人知识库。&lt;/p&gt;
+      <guid>http://halo.rebotgpt.top/blog/7.html/</guid>
+      <description>&lt;p&gt;接上篇文章 &lt;a href=&#34;http://halo.rebotgpt.top/blog/121.html&#34;&gt;《关于我选择笔记系统这件小事》&lt;/a&gt; ，obsidian 的个人体验很棒，我也打算长久使用作为个人知识库。&lt;/p&gt;
 &lt;p&gt;但是它有一个弊端，就是本地离线化导致同步是个问题，官方的同步服务很贵，给我劝退了，因此我寻求了其他的同步备份方案，就是今天我要分享的坚果云 + obsidian。&lt;/p&gt;
 &lt;h3 id=&#34;注册账号&#34;&gt;注册账号&lt;/h3&gt;
 &lt;p&gt;在&lt;a href=&#34;https://www.jianguoyun.com/&#34;&gt;坚果云官网&lt;/a&gt;注册一个账号，选择个人用户，创建账号之后登陆。&lt;/p&gt;

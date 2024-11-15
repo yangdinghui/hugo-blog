@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Css | halo的博客</title>
-    <link>http://localhost:1313/tags/css/</link>
-      <atom:link href="http://localhost:1313/tags/css/index.xml" rel="self" type="application/rss+xml" />
-    <description>无人扶我青云志，我自踏雪至山巅。一名 Web 前端开发工程师，热爱生活。</description>
+    <link>http://halo.rebotgpt.top/tags/css/</link>
+      <atom:link href="http://halo.rebotgpt.top/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    <description>多喝水，一名擅长摸鱼的开发者。</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 09 May 2021 00:00:00 +0000</lastBuildDate>
     <item>
       <title>网站引入 iframe 视频，如何实现高度自适应？</title>
-      <link>http://localhost:1313/blog/66.html/</link>
+      <link>http://halo.rebotgpt.top/blog/4.html/</link>
       <pubDate>Sun, 09 May 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/66.html/</guid>
+      <guid>http://halo.rebotgpt.top/blog/4.html/</guid>
       <description>&lt;p&gt;我想很多小伙伴在写博客的时候都能遇到一个令人头疼的问题，某一篇文章想用 &lt;code&gt;iframe&lt;/code&gt; 引入一个外链视频，但是大小总是有问题，宽度可以固定到 100% ，但是高度比如用实际高度来表示，比如 &lt;code&gt;100px&lt;/code&gt;, &lt;code&gt;200px&lt;/code&gt;，诸如此类。&lt;/p&gt;
 &lt;p&gt;但是问题来了，在不同的页面宽度下，视频的高度是一致的，就会导致一个很麻烦的问题，&lt;/p&gt;
 &lt;p&gt;看下面两个图，&lt;/p&gt;
@@ -47,7 +47,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;height&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;100&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;这个时候再访问带有 iframe 视频的网页，不管宽度如何变化，高度可以随视频自适应。&lt;/p&gt;
-&lt;p&gt;例如这个网页，可以看一下效果：&lt;a href=&#34;http://localhost:1313/posts/20210507.html&#34;&gt;https://imhan.cn/posts/20210507.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;例如这个网页，可以看一下效果：&lt;a href=&#34;http://halo.rebotgpt.top/posts/20210507.html&#34;&gt;https://imhan.cn/posts/20210507.html&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>组件 | halo的博客</title>
-    <link>http://localhost:1313/tags/%E7%BB%84%E4%BB%B6/</link>
-      <atom:link href="http://localhost:1313/tags/%E7%BB%84%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
-    <description>无人扶我青云志，我自踏雪至山巅。一名 Web 前端开发工程师，热爱生活。</description>
+    <link>http://halo.rebotgpt.top/tags/%E7%BB%84%E4%BB%B6/</link>
+      <atom:link href="http://halo.rebotgpt.top/tags/%E7%BB%84%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
+    <description>多喝水，一名擅长摸鱼的开发者。</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 21 Dec 2020 00:00:00 +0000</lastBuildDate>
     <item>
       <title>React －－万物皆可组件</title>
-      <link>http://localhost:1313/blog/37.html/</link>
+      <link>http://halo.rebotgpt.top/blog/1.html/</link>
       <pubDate>Mon, 21 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/37.html/</guid>
+      <guid>http://halo.rebotgpt.top/blog/1.html/</guid>
       <description>&lt;h2 id=&#34;一react-组件是什么&#34;&gt;一、React 组件是什么？&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;组件，从概念上类似于 javascript 函数，他接受任意入参&lt;code&gt;（props）&lt;/code&gt;，并返回作用于描述页面展示内容的 React 元素。&lt;/p&gt;

@@ -2,15 +2,138 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>halo的博客</title>
-    <link>http://localhost:1313/</link>
-      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <description>无人扶我青云志，我自踏雪至山巅。一名 Web 前端开发工程师，热爱生活。</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 23 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <link>http://halo.rebotgpt.top/</link>
+      <atom:link href="http://halo.rebotgpt.top/index.xml" rel="self" type="application/rss+xml" />
+    <description>多喝水，一名擅长摸鱼的开发者。</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 15 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>git命令创建新分支</title>
+      <link>http://halo.rebotgpt.top/blog/15.html/</link>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://halo.rebotgpt.top/blog/15.html/</guid>
+      <description>&lt;h3 id=&#34;1切换到-master-分支确保你当前在-master-分支上&#34;&gt;1.切换到 master 分支‌（确保你当前在 master 分支上）&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git checkout master
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;2从-master-分支创建一个新分支假设新分支名为-new-branch&#34;&gt;2.从 master 分支创建一个新分支‌（假设新分支名为 new-branch）：&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git checkout -b new-branch-name
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;3将新分支推送到远程仓库&#34;&gt;3.将新分支推送到远程仓库‌&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git push origin new-branch-name
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;4完整的命令序列如下&#34;&gt;4.完整的命令序列如下：&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git checkout master
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git checkout -b new-branch-name
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git push origin new-branch-name
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>俄罗斯RT讲俄法战争</title>
+      <link>http://halo.rebotgpt.top/blog/14.html/</link>
+      <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://halo.rebotgpt.top/blog/14.html/</guid>
+      <description>&lt;iframe height=498 src=&#34;https://img.rebotgpt.top/%E4%BF%84%E7%BD%97%E6%96%AFRT%E8%AE%B2%E4%BF%84%E6%B3%95%E6%88%98%E4%BA%89.mp4&#34;/&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>rocketmq源码编译记录</title>
+      <link>http://halo.rebotgpt.top/blog/13.html/</link>
+      <pubDate>Mon, 04 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://halo.rebotgpt.top/blog/13.html/</guid>
+      <description>&lt;h3 id=&#34;前置准备工具&#34;&gt;前置准备工具&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;JDK1.8+&lt;/li&gt;
+&lt;li&gt;Maven 3.2+&lt;/li&gt;
+&lt;li&gt;编译工具idea&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;1获取源码并导入idea&#34;&gt;1.获取源码并导入idea&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone https://github.com/apache/rocketmq.git
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;2文件修改&#34;&gt;2.文件修改&lt;/h3&gt;
+&lt;h4 id=&#34;21在根目录下创建目录conf&#34;&gt;2.1.在根目录下创建目录conf&lt;/h4&gt;
+&lt;h4 id=&#34;22将项目中distribution工程中的conf目录下的文件brokerconf复制到根目录下conf中&#34;&gt;2.2.将项目中distribution工程中的conf目录下的文件broker.conf复制到根目录下conf中&lt;/h4&gt;
+&lt;h4 id=&#34;23修改内容如&#34;&gt;2.3.修改内容，如&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;brokerClusterName&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; DefaultCluster
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;brokerName&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; broker-a
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;brokerId&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;deleteWhen&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;04&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;fileReservedTime&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;48&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;brokerRole&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; ASYNC_MASTER
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;flushDiskType&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; ASYNC_FLUSH
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 自动创建Topic&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;autoCreateTopicEnable&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# nameServ地址&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;namesrvAddr&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;localhost:9876
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 存储路径&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;storePathRootDir&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;/Users/tomato/IdeaProjects/learn/sourcecode/rocketmq/store
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#CommitLog存储路径&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;storePathCommitLog&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;/Users/tomato/IdeaProjects/learn/sourcecode/rocketmq/store/commitlog
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 消费队列存储路径&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;storePathConsumeQueue&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;/Users/tomato/IdeaProjects/learn/sourcecode/rocketmq/store/consumequeue
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 消息索引存储路径&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;storePathIndex&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;/Users/tomato/IdeaProjects/learn/sourcecode/rocketmq/store/index
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#checkpoint文件存储路径&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;storeCheckpoint/Users/tomato/IdeaProjects/learn/sourcecode/rocketmq/store/checkpoint
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#abort文件存储路径&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;abortFile&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;/Users/tomato/IdeaProjects/learn/sourcecode/rocketmq/store/abort
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;3编译运行以下命令&#34;&gt;3.编译,运行以下命令&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mvn clean install -Dmaven.test.skip&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;等待命令执行完成。&lt;/p&gt;
+&lt;h3 id=&#34;4编译安装完成后观察项目各种jar包是否正确导入&#34;&gt;4.编译安装完成后，观察项目各种jar包是否正确导入&lt;/h3&gt;
+&lt;p&gt;若有包未正确导入，可从本地删掉该jar，刷新maven重新下载&lt;/p&gt;
+&lt;h3 id=&#34;5执行orgapacherocketmqnamesrvnamesrvstartup&#34;&gt;5.执行org.apache.rocketmq.namesrv.NamesrvStartup&lt;/h3&gt;
+&lt;h4 id=&#34;51增加启动配置&#34;&gt;5.1增加启动配置&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://img.rebotgpt.top/2024/11/d4eb7c5b8248a54826810d172478c52c.jpg&#34; alt=&#34;NamesrvStartup启动配置&#34;&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;ROCKETMQ_HOME&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;/Users/tomato/IdeaProjects/learn/sourcecode/rocketmq
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;若还报错&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Please &lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; the ROCKETMQ_HOME variable in your environment to match the location of the RocketMQ installation
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;则在NamesrvStartup.java中main方法第一行增加&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;setProperty&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;rocketmq.home.dir&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;/Users/tomato/IdeaProjects/learn/sourcecode/rocketmq&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;52执行成功&#34;&gt;5.2执行成功&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;The Name Server boot success. &lt;span class=&#34;nv&#34;&gt;serializeType&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;JSON, address 0.0.0.0:9876
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;6执行orgapacherocketmqbrokerbrokerstartup&#34;&gt;6.执行org.apache.rocketmq.broker.BrokerStartup&lt;/h3&gt;
+&lt;h4 id=&#34;61增加启动配置&#34;&gt;6.1增加启动配置&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://img.rebotgpt.top/2024/11/ae365ef14b9c6c2738ebac7ec8625aad.jpg&#34; alt=&#34;BrokerStartup启动配置&#34;&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;ROCKETMQ_HOME&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;/Users/tomato/IdeaProjects/learn/sourcecode/rocketmq
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;若还报错&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Please &lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; the ROCKETMQ_HOME variable in your environment to match the location of the RocketMQ installation
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;则在BrokerStartup.java中main方法第一行增加&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;setProperty&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;rocketmq.home.dir&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;/Users/tomato/IdeaProjects/learn/sourcecode/rocketmq&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;62执行成功&#34;&gt;6.2执行成功&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;The broker&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;broker-a, 172.17.54.155:10911&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; boot success. &lt;span class=&#34;nv&#34;&gt;serializeType&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;JSON and name server is localhost:9876
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;7执行orgapacherocketmqexamplequickstartproducer&#34;&gt;7.执行org.apache.rocketmq.example.quickstart.Producer&lt;/h3&gt;
+&lt;h4 id=&#34;71-先修改producer前将该注释打开&#34;&gt;7.1 先修改Producer前将该注释打开&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;producer&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;setNamesrvAddr&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;DEFAULT_NAMESRVADDR&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;72-运行main方法执行成功会有以下输出&#34;&gt;7.2 运行main方法,执行成功会有以下输出&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;SendResult &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;sendStatus&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;SEND_OK, &lt;span class=&#34;nv&#34;&gt;msgId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;AC1FD12A13DE18B4AAC289B398C803DE, &lt;span class=&#34;nv&#34;&gt;offsetMsgId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;AC11369B00002A9F00000000000B0752, &lt;span class=&#34;nv&#34;&gt;messageQueue&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;MessageQueue &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;topic&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;TopicTest, &lt;span class=&#34;nv&#34;&gt;brokerName&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;broker-a, &lt;span class=&#34;nv&#34;&gt;queueId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;queueOffset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;746&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;SendResult &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;sendStatus&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;SEND_OK, &lt;span class=&#34;nv&#34;&gt;msgId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;AC1FD12A13DE18B4AAC289B398C903DF, &lt;span class=&#34;nv&#34;&gt;offsetMsgId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;AC11369B00002A9F00000000000B0844, &lt;span class=&#34;nv&#34;&gt;messageQueue&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;MessageQueue &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;topic&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;TopicTest, &lt;span class=&#34;nv&#34;&gt;brokerName&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;broker-a, &lt;span class=&#34;nv&#34;&gt;queueId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;1&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;queueOffset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;747&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;SendResult &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;sendStatus&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;SEND_OK, &lt;span class=&#34;nv&#34;&gt;msgId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;AC1FD12A13DE18B4AAC289B398C903E0, &lt;span class=&#34;nv&#34;&gt;offsetMsgId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;AC11369B00002A9F00000000000B0936, &lt;span class=&#34;nv&#34;&gt;messageQueue&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;MessageQueue &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;topic&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;TopicTest, &lt;span class=&#34;nv&#34;&gt;brokerName&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;broker-a, &lt;span class=&#34;nv&#34;&gt;queueId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;2&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;queueOffset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;748&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;SendResult &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;sendStatus&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;SEND_OK, &lt;span class=&#34;nv&#34;&gt;msgId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;AC1FD12A13DE18B4AAC289B398C903E1, &lt;span class=&#34;nv&#34;&gt;offsetMsgId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;AC11369B00002A9F00000000000B0A28, &lt;span class=&#34;nv&#34;&gt;messageQueue&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;MessageQueue &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;topic&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;TopicTest, &lt;span class=&#34;nv&#34;&gt;brokerName&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;broker-a, &lt;span class=&#34;nv&#34;&gt;queueId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;3&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;queueOffset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;747&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;SendResult &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;sendStatus&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;SEND_OK, &lt;span class=&#34;nv&#34;&gt;msgId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;AC1FD12A13DE18B4AAC289B398CA03E2, &lt;span class=&#34;nv&#34;&gt;offsetMsgId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;AC11369B00002A9F00000000000B0B1A, &lt;span class=&#34;nv&#34;&gt;messageQueue&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;MessageQueue &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;topic&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;TopicTest, &lt;span class=&#34;nv&#34;&gt;brokerName&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;broker-a, &lt;span class=&#34;nv&#34;&gt;queueId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;queueOffset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;747&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;SendResult &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;sendStatus&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;SEND_OK, &lt;span class=&#34;nv&#34;&gt;msgId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;AC1FD12A13DE18B4AAC289B398CA03E3, &lt;span class=&#34;nv&#34;&gt;offsetMsgId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;AC11369B00002A9F00000000000B0C0C, &lt;span class=&#34;nv&#34;&gt;messageQueue&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;MessageQueue &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;topic&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;TopicTest, &lt;span class=&#34;nv&#34;&gt;brokerName&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;broker-a, &lt;span class=&#34;nv&#34;&gt;queueId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;1&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;queueOffset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;748&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;SendResult &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;sendStatus&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;SEND_OK, &lt;span class=&#34;nv&#34;&gt;msgId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;AC1FD12A13DE18B4AAC289B398CA03E4, &lt;span class=&#34;nv&#34;&gt;offsetMsgId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;AC11369B00002A9F00000000000B0CFE, &lt;span class=&#34;nv&#34;&gt;messageQueue&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;MessageQueue &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;topic&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;TopicTest, &lt;span class=&#34;nv&#34;&gt;brokerName&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;broker-a, &lt;span class=&#34;nv&#34;&gt;queueId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;2&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;queueOffset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;749&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;SendResult &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;sendStatus&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;SEND_OK, &lt;span class=&#34;nv&#34;&gt;msgId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;AC1FD12A13DE18B4AAC289B398CB03E5, &lt;span class=&#34;nv&#34;&gt;offsetMsgId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;AC11369B00002A9F00000000000B0DF0, &lt;span class=&#34;nv&#34;&gt;messageQueue&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;MessageQueue &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;topic&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;TopicTest, &lt;span class=&#34;nv&#34;&gt;brokerName&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;broker-a, &lt;span class=&#34;nv&#34;&gt;queueId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;3&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;queueOffset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;748&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;SendResult &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;sendStatus&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;SEND_OK, &lt;span class=&#34;nv&#34;&gt;msgId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;AC1FD12A13DE18B4AAC289B398CB03E6, &lt;span class=&#34;nv&#34;&gt;offsetMsgId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;AC11369B00002A9F00000000000B0EE2, &lt;span class=&#34;nv&#34;&gt;messageQueue&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;MessageQueue &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;topic&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;TopicTest, &lt;span class=&#34;nv&#34;&gt;brokerName&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;broker-a, &lt;span class=&#34;nv&#34;&gt;queueId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;queueOffset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;748&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;SendResult &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;sendStatus&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;SEND_OK, &lt;span class=&#34;nv&#34;&gt;msgId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;AC1FD12A13DE18B4AAC289B398CC03E7, &lt;span class=&#34;nv&#34;&gt;offsetMsgId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;AC11369B00002A9F00000000000B0FD4, &lt;span class=&#34;nv&#34;&gt;messageQueue&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;MessageQueue &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;topic&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;TopicTest, &lt;span class=&#34;nv&#34;&gt;brokerName&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;broker-a, &lt;span class=&#34;nv&#34;&gt;queueId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;1&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;queueOffset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;749&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;8执行orgapacherocketmqexamplequickstartconsumer&#34;&gt;8.执行org.apache.rocketmq.example.quickstart.Consumer&lt;/h3&gt;
+&lt;h4 id=&#34;81-先修改consumer类前将该注释打开&#34;&gt;8.1 先修改Consumer类前将该注释打开&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;consumer&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;setNamesrvAddr&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;DEFAULT_NAMESRVADDR&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;82-运行main方法执行成功会有以下输出&#34;&gt;8.2 运行main方法,执行成功会有以下输出&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ConsumeMessageThread_please_rename_unique_group_name_4_16 Receive New Messages: &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;MessageExt &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;brokerName&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;broker-a, &lt;span class=&#34;nv&#34;&gt;queueId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;1, &lt;span class=&#34;nv&#34;&gt;storeSize&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;242, &lt;span class=&#34;nv&#34;&gt;queueOffset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;490, &lt;span class=&#34;nv&#34;&gt;sysFlag&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0, &lt;span class=&#34;nv&#34;&gt;bornTimestamp&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;1709025389853, &lt;span class=&#34;nv&#34;&gt;bornHost&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;/172.17.54.155:56940, &lt;span class=&#34;nv&#34;&gt;storeTimestamp&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;1709025389853, &lt;span class=&#34;nv&#34;&gt;storeHost&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;/172.17.54.155:10911, &lt;span class=&#34;nv&#34;&gt;msgId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;AC11369B00002A9F0000000000073BF8, &lt;span class=&#34;nv&#34;&gt;commitLogOffset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;474104, &lt;span class=&#34;nv&#34;&gt;bodyCRC&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;910391900, &lt;span class=&#34;nv&#34;&gt;reconsumeTimes&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0, &lt;span class=&#34;nv&#34;&gt;preparedTransactionOffset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0, toString&lt;span class=&#34;o&#34;&gt;()=&lt;/span&gt;Message&lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;topic&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;TopicTest&amp;#39;&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;flag&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0, &lt;span class=&#34;nv&#34;&gt;properties&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;={&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;CONSUME_START_TIME&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;1709025398791, &lt;span class=&#34;nv&#34;&gt;MSG_REGION&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;DefaultRegion, &lt;span class=&#34;nv&#34;&gt;UNIQ_KEY&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;AC1FD12AC78018B4AAC2899A491D03C0, &lt;span class=&#34;nv&#34;&gt;CLUSTER&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;DefaultCluster, &lt;span class=&#34;nv&#34;&gt;MIN_OFFSET&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0, &lt;span class=&#34;nv&#34;&gt;TAGS&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;TagA, &lt;span class=&#34;nv&#34;&gt;WAIT&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;true, &lt;span class=&#34;nv&#34;&gt;TRACE_ON&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;true, &lt;span class=&#34;nv&#34;&gt;MAX_OFFSET&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;500&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=[&lt;/span&gt;72, 101, 108, 108, 111, 32, 82, 111, 99, 107, 101, 116, 77, 81, 32, 57, 54, 50&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;transactionId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;null&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;}]]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ConsumeMessageThread_please_rename_unique_group_name_4_13 Receive New Messages: &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;MessageExt &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;brokerName&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;broker-a, &lt;span class=&#34;nv&#34;&gt;queueId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;1, &lt;span class=&#34;nv&#34;&gt;storeSize&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;242, &lt;span class=&#34;nv&#34;&gt;queueOffset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;485, &lt;span class=&#34;nv&#34;&gt;sysFlag&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0, &lt;span class=&#34;nv&#34;&gt;bornTimestamp&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;1709025389842, &lt;span class=&#34;nv&#34;&gt;bornHost&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;/172.17.54.155:56940, &lt;span class=&#34;nv&#34;&gt;storeTimestamp&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;1709025389842, &lt;span class=&#34;nv&#34;&gt;storeHost&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;/172.17.54.155:10911, &lt;span class=&#34;nv&#34;&gt;msgId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;AC11369B00002A9F0000000000072910, &lt;span class=&#34;nv&#34;&gt;commitLogOffset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;469264, &lt;span class=&#34;nv&#34;&gt;bodyCRC&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;74782942, &lt;span class=&#34;nv&#34;&gt;reconsumeTimes&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0, &lt;span class=&#34;nv&#34;&gt;preparedTransactionOffset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0, toString&lt;span class=&#34;o&#34;&gt;()=&lt;/span&gt;Message&lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;topic&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;TopicTest&amp;#39;&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;flag&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0, &lt;span class=&#34;nv&#34;&gt;properties&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;={&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;CONSUME_START_TIME&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;1709025398791, &lt;span class=&#34;nv&#34;&gt;MSG_REGION&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;DefaultRegion, &lt;span class=&#34;nv&#34;&gt;UNIQ_KEY&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;AC1FD12AC78018B4AAC2899A491203AC, &lt;span class=&#34;nv&#34;&gt;CLUSTER&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;DefaultCluster, &lt;span class=&#34;nv&#34;&gt;MIN_OFFSET&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0, &lt;span class=&#34;nv&#34;&gt;TAGS&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;TagA, &lt;span class=&#34;nv&#34;&gt;WAIT&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;true, &lt;span class=&#34;nv&#34;&gt;TRACE_ON&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;true, &lt;span class=&#34;nv&#34;&gt;MAX_OFFSET&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;500&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=[&lt;/span&gt;72, 101, 108, 108, 111, 32, 82, 111, 99, 107, 101, 116, 77, 81, 32, 57, 52, 50&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;transactionId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;null&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;}]]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ConsumeMessageThread_please_rename_unique_group_name_4_3 Receive New Messages: &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;MessageExt &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;brokerName&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;broker-a, &lt;span class=&#34;nv&#34;&gt;queueId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;1, &lt;span class=&#34;nv&#34;&gt;storeSize&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;242, &lt;span class=&#34;nv&#34;&gt;queueOffset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;481, &lt;span class=&#34;nv&#34;&gt;sysFlag&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0, &lt;span class=&#34;nv&#34;&gt;bornTimestamp&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;1709025389831, &lt;span class=&#34;nv&#34;&gt;bornHost&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;/172.17.54.155:56940, &lt;span class=&#34;nv&#34;&gt;storeTimestamp&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;1709025389832, &lt;span class=&#34;nv&#34;&gt;storeHost&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;/172.17.54.155:10911, &lt;span class=&#34;nv&#34;&gt;msgId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;AC11369B00002A9F00000000000719F0, &lt;span class=&#34;nv&#34;&gt;commitLogOffset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;465392, &lt;span class=&#34;nv&#34;&gt;bodyCRC&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;1430420289, &lt;span class=&#34;nv&#34;&gt;reconsumeTimes&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0, &lt;span class=&#34;nv&#34;&gt;preparedTransactionOffset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0, toString&lt;span class=&#34;o&#34;&gt;()=&lt;/span&gt;Message&lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;topic&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;TopicTest&amp;#39;&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;flag&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0, &lt;span class=&#34;nv&#34;&gt;properties&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;={&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;CONSUME_START_TIME&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;1709025398791, &lt;span class=&#34;nv&#34;&gt;MSG_REGION&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;DefaultRegion, &lt;span class=&#34;nv&#34;&gt;UNIQ_KEY&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;AC1FD12AC78018B4AAC2899A4907039C, &lt;span class=&#34;nv&#34;&gt;CLUSTER&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;DefaultCluster, &lt;span class=&#34;nv&#34;&gt;MIN_OFFSET&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0, &lt;span class=&#34;nv&#34;&gt;TAGS&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;TagA, &lt;span class=&#34;nv&#34;&gt;WAIT&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;true, &lt;span class=&#34;nv&#34;&gt;TRACE_ON&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;true, &lt;span class=&#34;nv&#34;&gt;MAX_OFFSET&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;500&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=[&lt;/span&gt;72, 101, 108, 108, 111, 32, 82, 111, 99, 107, 101, 116, 77, 81, 32, 57, 50, 54&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;transactionId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;null&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;}]]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ConsumeMessageThread_please_rename_unique_group_name_4_20 Receive New Messages: &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;MessageExt &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;brokerName&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;broker-a, &lt;span class=&#34;nv&#34;&gt;queueId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;1, &lt;span class=&#34;nv&#34;&gt;storeSize&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;242, &lt;span class=&#34;nv&#34;&gt;queueOffset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;480, &lt;span class=&#34;nv&#34;&gt;sysFlag&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0, &lt;span class=&#34;nv&#34;&gt;bornTimestamp&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;1709025389825, &lt;span class=&#34;nv&#34;&gt;bornHost&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;/172.17.54.155:56940, &lt;span class=&#34;nv&#34;&gt;storeTimestamp&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;1709025389825, &lt;span class=&#34;nv&#34;&gt;storeHost&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;/172.17.54.155:10911, &lt;span class=&#34;nv&#34;&gt;msgId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;AC11369B00002A9F0000000000071628, &lt;span class=&#34;nv&#34;&gt;commitLogOffset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;464424, &lt;span class=&#34;nv&#34;&gt;bodyCRC&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;1378860888, &lt;span class=&#34;nv&#34;&gt;reconsumeTimes&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0, &lt;span class=&#34;nv&#34;&gt;preparedTransactionOffset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0, toString&lt;span class=&#34;o&#34;&gt;()=&lt;/span&gt;Message&lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;topic&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;TopicTest&amp;#39;&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;flag&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0, &lt;span class=&#34;nv&#34;&gt;properties&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;={&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;CONSUME_START_TIME&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;1709025398791, &lt;span class=&#34;nv&#34;&gt;MSG_REGION&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;DefaultRegion, &lt;span class=&#34;nv&#34;&gt;UNIQ_KEY&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;AC1FD12AC78018B4AAC2899A49010398, &lt;span class=&#34;nv&#34;&gt;CLUSTER&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;DefaultCluster, &lt;span class=&#34;nv&#34;&gt;MIN_OFFSET&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0, &lt;span class=&#34;nv&#34;&gt;TAGS&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;TagA, &lt;span class=&#34;nv&#34;&gt;WAIT&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;true, &lt;span class=&#34;nv&#34;&gt;TRACE_ON&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;true, &lt;span class=&#34;nv&#34;&gt;MAX_OFFSET&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;500&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=[&lt;/span&gt;72, 101, 108, 108, 111, 32, 82, 111, 99, 107, 101, 116, 77, 81, 32, 57, 50, 50&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;transactionId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;null&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;}]]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ConsumeMessageThread_please_rename_unique_group_name_4_15 Receive New Messages: &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;MessageExt &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;brokerName&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;broker-a, &lt;span class=&#34;nv&#34;&gt;queueId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;1, &lt;span class=&#34;nv&#34;&gt;storeSize&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;242, &lt;span class=&#34;nv&#34;&gt;queueOffset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;476, &lt;span class=&#34;nv&#34;&gt;sysFlag&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0, &lt;span class=&#34;nv&#34;&gt;bornTimestamp&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;1709025389807, &lt;span class=&#34;nv&#34;&gt;bornHost&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;/172.17.54.155:56940, &lt;span class=&#34;nv&#34;&gt;storeTimestamp&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;1709025389807, &lt;span class=&#34;nv&#34;&gt;storeHost&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;/172.17.54.155:10911, &lt;span class=&#34;nv&#34;&gt;msgId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;AC11369B00002A9F0000000000070708, &lt;span class=&#34;nv&#34;&gt;commitLogOffset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;460552, &lt;span class=&#34;nv&#34;&gt;bodyCRC&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;1735662019, &lt;span class=&#34;nv&#34;&gt;reconsumeTimes&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0, &lt;span class=&#34;nv&#34;&gt;preparedTransactionOffset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0, toString&lt;span class=&#34;o&#34;&gt;()=&lt;/span&gt;Message&lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;topic&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;TopicTest&amp;#39;&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;flag&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0, &lt;span class=&#34;nv&#34;&gt;properties&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;={&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;CONSUME_START_TIME&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;1709025398791, &lt;span class=&#34;nv&#34;&gt;MSG_REGION&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;DefaultRegion, &lt;span class=&#34;nv&#34;&gt;UNIQ_KEY&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;AC1FD12AC78018B4AAC2899A48EF0388, &lt;span class=&#34;nv&#34;&gt;CLUSTER&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;DefaultCluster, &lt;span class=&#34;nv&#34;&gt;MIN_OFFSET&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0, &lt;span class=&#34;nv&#34;&gt;TAGS&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;TagA, &lt;span class=&#34;nv&#34;&gt;WAIT&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;true, &lt;span class=&#34;nv&#34;&gt;TRACE_ON&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;true, &lt;span class=&#34;nv&#34;&gt;MAX_OFFSET&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;500&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=[&lt;/span&gt;72, 101, 108, 108, 111, 32, 82, 111, 99, 107, 101, 116, 77, 81, 32, 57, 48, 54&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;transactionId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;null&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;}]]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ConsumeMessageThread_please_rename_unique_group_name_4_14 Receive New Messages: &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;MessageExt &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;brokerName&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;broker-a, &lt;span class=&#34;nv&#34;&gt;queueId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;1, &lt;span class=&#34;nv&#34;&gt;storeSize&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;242, &lt;span class=&#34;nv&#34;&gt;queueOffset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;475, &lt;span class=&#34;nv&#34;&gt;sysFlag&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0, &lt;span class=&#34;nv&#34;&gt;bornTimestamp&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;1709025389803, &lt;span class=&#34;nv&#34;&gt;bornHost&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;/172.17.54.155:56940, &lt;span class=&#34;nv&#34;&gt;storeTimestamp&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;1709025389803, &lt;span class=&#34;nv&#34;&gt;storeHost&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;/172.17.54.155:10911, &lt;span class=&#34;nv&#34;&gt;msgId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;AC11369B00002A9F0000000000070340, &lt;span class=&#34;nv&#34;&gt;commitLogOffset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;459584, &lt;span class=&#34;nv&#34;&gt;bodyCRC&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;1612307930, &lt;span class=&#34;nv&#34;&gt;reconsumeTimes&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0, &lt;span class=&#34;nv&#34;&gt;preparedTransactionOffset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0, toString&lt;span class=&#34;o&#34;&gt;()=&lt;/span&gt;Message&lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;topic&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;TopicTest&amp;#39;&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;flag&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0, &lt;span class=&#34;nv&#34;&gt;properties&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;={&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;CONSUME_START_TIME&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;1709025398791, &lt;span class=&#34;nv&#34;&gt;MSG_REGION&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;DefaultRegion, &lt;span class=&#34;nv&#34;&gt;UNIQ_KEY&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;AC1FD12AC78018B4AAC2899A48EB0384, &lt;span class=&#34;nv&#34;&gt;CLUSTER&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;DefaultCluster, &lt;span class=&#34;nv&#34;&gt;MIN_OFFSET&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0, &lt;span class=&#34;nv&#34;&gt;TAGS&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;TagA, &lt;span class=&#34;nv&#34;&gt;WAIT&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;true, &lt;span class=&#34;nv&#34;&gt;TRACE_ON&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;true, &lt;span class=&#34;nv&#34;&gt;MAX_OFFSET&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;500&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=[&lt;/span&gt;72, 101, 108, 108, 111, 32, 82, 111, 99, 107, 101, 116, 77, 81, 32, 57, 48, 50&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;transactionId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;null&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;}]]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ConsumeMessageThread_please_rename_unique_group_name_4_6 Receive New Messages: &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;MessageExt &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;brokerName&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;broker-a, &lt;span class=&#34;nv&#34;&gt;queueId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;1, &lt;span class=&#34;nv&#34;&gt;storeSize&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;242, &lt;span class=&#34;nv&#34;&gt;queueOffset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;474, &lt;span class=&#34;nv&#34;&gt;sysFlag&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0, &lt;span class=&#34;nv&#34;&gt;bornTimestamp&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;1709025389775, &lt;span class=&#34;nv&#34;&gt;bornHost&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;/172.17.54.155:56940, &lt;span class=&#34;nv&#34;&gt;storeTimestamp&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;1709025389780, &lt;span class=&#34;nv&#34;&gt;storeHost&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;/172.17.54.155:10911, &lt;span class=&#34;nv&#34;&gt;msgId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;AC11369B00002A9F000000000006FF78, &lt;span class=&#34;nv&#34;&gt;commitLogOffset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;458616, &lt;span class=&#34;nv&#34;&gt;bodyCRC&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;1355605434, &lt;span class=&#34;nv&#34;&gt;reconsumeTimes&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0, &lt;span class=&#34;nv&#34;&gt;preparedTransactionOffset&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0, toString&lt;span class=&#34;o&#34;&gt;()=&lt;/span&gt;Message&lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;topic&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;TopicTest&amp;#39;&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;flag&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0, &lt;span class=&#34;nv&#34;&gt;properties&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;={&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;CONSUME_START_TIME&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;1709025398791, &lt;span class=&#34;nv&#34;&gt;MSG_REGION&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;DefaultRegion, &lt;span class=&#34;nv&#34;&gt;UNIQ_KEY&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;AC1FD12AC78018B4AAC2899A48CF0380, &lt;span class=&#34;nv&#34;&gt;CLUSTER&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;DefaultCluster, &lt;span class=&#34;nv&#34;&gt;MIN_OFFSET&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0, &lt;span class=&#34;nv&#34;&gt;TAGS&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;TagA, &lt;span class=&#34;nv&#34;&gt;WAIT&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;true, &lt;span class=&#34;nv&#34;&gt;TRACE_ON&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;true, &lt;span class=&#34;nv&#34;&gt;MAX_OFFSET&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;500&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=[&lt;/span&gt;72, 101, 108, 108, 111, 32, 82, 111, 99, 107, 101, 116, 77, 81, 32, 56, 57, 56&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;transactionId&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;null&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;}]]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;9编译完成接下来就可以愉快的调试源码了&#34;&gt;9.编译完成，接下来就可以愉快的调试源码了！&lt;/h3&gt;
+&lt;h3 id=&#34;注上面提到的目录需要根据本地环境调整&#34;&gt;注：上面提到的目录需要根据本地环境调整！！！&lt;/h3&gt;
+</description>
+    </item>
+    
     <item>
       <title>无法从非 EcmaScript 模块导入命名导出</title>
-      <link>http://localhost:1313/blog/218.html/</link>
+      <link>http://halo.rebotgpt.top/blog/12.html/</link>
       <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/218.html/</guid>
+      <guid>http://halo.rebotgpt.top/blog/12.html/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/markdown-it/markdown-it&#34;&gt;https://github.com/markdown-it/markdown-it&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;markdown-it 是一个基于 vue 的解析 markdown 语法的库。&lt;/p&gt;
 &lt;p&gt;在 vue 中引入 markdown-it 模块时遇到一个问题，dev 开发运行时报出以下错误，无法从非 EcmaScript 模块导入命名导出。&lt;/p&gt;
@@ -54,9 +177,9 @@
     
     <item>
       <title>hugo 的一些模板语法</title>
-      <link>http://localhost:1313/blog/213.html/</link>
+      <link>http://halo.rebotgpt.top/blog/11.html/</link>
       <pubDate>Wed, 15 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/213.html/</guid>
+      <guid>http://halo.rebotgpt.top/blog/11.html/</guid>
       <description>&lt;p&gt;分享一下 hugo 的语法模板，如何获取总文章数和总字数，效果可以参考我的首页。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{ $articleCount := len .Site.RegularPages }}
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{ $totalWordCount := 0 }}
@@ -102,9 +225,9 @@
     
     <item>
       <title>安装一个基于 Github 的静态图床程序</title>
-      <link>http://localhost:1313/blog/172.html/</link>
+      <link>http://halo.rebotgpt.top/blog/10.html/</link>
       <pubDate>Sat, 22 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/172.html/</guid>
+      <guid>http://halo.rebotgpt.top/blog/10.html/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;demo: &lt;a href=&#34;https://img.zburu.com/&#34;&gt;https://img.zburu.com/&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -164,9 +287,9 @@
     
     <item>
       <title>localStorage 的相关运用</title>
-      <link>http://localhost:1313/blog/171.html/</link>
+      <link>http://halo.rebotgpt.top/blog/9.html/</link>
       <pubDate>Thu, 20 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/171.html/</guid>
+      <guid>http://halo.rebotgpt.top/blog/9.html/</guid>
       <description>&lt;p&gt;localStorage 是浏览器自带的一个属性，只读的 localStorage 属性允许你访问一个 Document 源（origin）的对象 Storage；存储的数据将保存在浏览器会话中。localStorage 类似 sessionStorage，但其区别在于：存储在 localStorage 的数据可以长期保留；而当页面会话结束——也就是说，当页面被关闭时，存储在 sessionStorage 的数据会被清除。&lt;/p&gt;
 &lt;p&gt;应注意，无论数据存储在 localStorage 还是 sessionStorage，它们都特定于页面的协议。&lt;/p&gt;
 &lt;p&gt;另外，localStorage 中的键值对总是以字符串的形式存储。 (需要注意，和 js 对象相比，键值对总是以字符串的形式存储意味着数值类型会自动转化为字符串类型).&lt;/p&gt;
@@ -187,7 +310,7 @@
 &lt;p&gt;在一些场景下非常好用，比如开发一个油猴脚本等等。&lt;/p&gt;
 &lt;p&gt;清除 localStorage，分为清除所以的存储值和清除某个特定的 key。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// 清除本地存储中的所有值
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;localStorage&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;clear&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;localStorage&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;clear&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// 本地存储中删除特定项
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;localStorage&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;removeItem&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;key&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
@@ -196,9 +319,9 @@
     
     <item>
       <title>hugo 一键打包并上传 github</title>
-      <link>http://localhost:1313/blog/170.html/</link>
+      <link>http://halo.rebotgpt.top/blog/8.html/</link>
       <pubDate>Fri, 14 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/170.html/</guid>
+      <guid>http://halo.rebotgpt.top/blog/8.html/</guid>
       <description>&lt;p&gt;分享一个 hugo 一键打包并上传 github 的方法，前提是你之前上传过 GitHub 仓库。&lt;/p&gt;
 &lt;p&gt;采用 window 支持的 sh 可执行文件，在根目录新建一个 &lt;code&gt;hugo.sh&lt;/code&gt; 文件，里面放上一些命令。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo
@@ -222,10 +345,10 @@
     
     <item>
       <title>obsidian:如何使用坚果云进行多端同步？</title>
-      <link>http://localhost:1313/blog/146.html/</link>
+      <link>http://halo.rebotgpt.top/blog/7.html/</link>
       <pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/146.html/</guid>
-      <description>&lt;p&gt;接上篇文章 &lt;a href=&#34;http://localhost:1313/blog/121.html&#34;&gt;《关于我选择笔记系统这件小事》&lt;/a&gt; ，obsidian 的个人体验很棒，我也打算长久使用作为个人知识库。&lt;/p&gt;
+      <guid>http://halo.rebotgpt.top/blog/7.html/</guid>
+      <description>&lt;p&gt;接上篇文章 &lt;a href=&#34;http://halo.rebotgpt.top/blog/121.html&#34;&gt;《关于我选择笔记系统这件小事》&lt;/a&gt; ，obsidian 的个人体验很棒，我也打算长久使用作为个人知识库。&lt;/p&gt;
 &lt;p&gt;但是它有一个弊端，就是本地离线化导致同步是个问题，官方的同步服务很贵，给我劝退了，因此我寻求了其他的同步备份方案，就是今天我要分享的坚果云 + obsidian。&lt;/p&gt;
 &lt;h3 id=&#34;注册账号&#34;&gt;注册账号&lt;/h3&gt;
 &lt;p&gt;在&lt;a href=&#34;https://www.jianguoyun.com/&#34;&gt;坚果云官网&lt;/a&gt;注册一个账号，选择个人用户，创建账号之后登陆。&lt;/p&gt;
@@ -247,12 +370,12 @@
     
     <item>
       <title>人民币小写转大写</title>
-      <link>http://localhost:1313/blog/145.html/</link>
+      <link>http://halo.rebotgpt.top/blog/6.html/</link>
       <pubDate>Fri, 24 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/145.html/</guid>
+      <guid>http://halo.rebotgpt.top/blog/6.html/</guid>
       <description>&lt;p&gt;一个有趣的 demo&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;smalltoBIG&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;43533534.78&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;//肆仟叁佰伍拾叁万叁仟伍佰叁拾肆元柒角捌分
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;	
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;smalltoBIG&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;fraction&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;角&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;分&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;];&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;digit&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;零&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;壹&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;贰&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;叁&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;肆&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;伍&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;陆&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;柒&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;捌&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;玖&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;];&lt;/span&gt;
@@ -285,9 +408,9 @@
     
     <item>
       <title>typecho 更换 gravatar 头像源</title>
-      <link>http://localhost:1313/blog/92.html/</link>
+      <link>http://halo.rebotgpt.top/blog/5.html/</link>
       <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/92.html/</guid>
+      <guid>http://halo.rebotgpt.top/blog/5.html/</guid>
       <description>&lt;p&gt;找到根目录下 &lt;code&gt;config.inc.php&lt;/code&gt; 文件，在最前面加入下面的代码。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://imgurl.zishu.me/images/old/2022/01/05/3e5e307b9fb3ba048fdc9f7b5351d7b9.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-php&#34; data-lang=&#34;php&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;define&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;__TYPECHO_GRAVATAR_PREFIX__&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;https://sdn.geekzu.org/avatar/&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
@@ -304,9 +427,9 @@
     
     <item>
       <title>网站引入 iframe 视频，如何实现高度自适应？</title>
-      <link>http://localhost:1313/blog/66.html/</link>
+      <link>http://halo.rebotgpt.top/blog/4.html/</link>
       <pubDate>Sun, 09 May 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/66.html/</guid>
+      <guid>http://halo.rebotgpt.top/blog/4.html/</guid>
       <description>&lt;p&gt;我想很多小伙伴在写博客的时候都能遇到一个令人头疼的问题，某一篇文章想用 &lt;code&gt;iframe&lt;/code&gt; 引入一个外链视频，但是大小总是有问题，宽度可以固定到 100% ，但是高度比如用实际高度来表示，比如 &lt;code&gt;100px&lt;/code&gt;, &lt;code&gt;200px&lt;/code&gt;，诸如此类。&lt;/p&gt;
 &lt;p&gt;但是问题来了，在不同的页面宽度下，视频的高度是一致的，就会导致一个很麻烦的问题，&lt;/p&gt;
 &lt;p&gt;看下面两个图，&lt;/p&gt;
@@ -343,15 +466,15 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;height&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;100&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;这个时候再访问带有 iframe 视频的网页，不管宽度如何变化，高度可以随视频自适应。&lt;/p&gt;
-&lt;p&gt;例如这个网页，可以看一下效果：&lt;a href=&#34;http://localhost:1313/posts/20210507.html&#34;&gt;https://imhan.cn/posts/20210507.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;例如这个网页，可以看一下效果：&lt;a href=&#34;http://halo.rebotgpt.top/posts/20210507.html&#34;&gt;https://imhan.cn/posts/20210507.html&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>呼吸之野</title>
-      <link>http://localhost:1313/blog/65.html/</link>
+      <link>http://halo.rebotgpt.top/blog/3.html/</link>
       <pubDate>Fri, 07 May 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/65.html/</guid>
+      <guid>http://halo.rebotgpt.top/blog/3.html/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;2021 许嵩第 8 张全创作专辑《呼吸之野》首支曲目《乌鸦》5 月 7 日正式发行。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -399,9 +522,9 @@
     
     <item>
       <title>React 学习笔记（三）</title>
-      <link>http://localhost:1313/blog/39.html/</link>
+      <link>http://halo.rebotgpt.top/blog/2.html/</link>
       <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/39.html/</guid>
+      <guid>http://halo.rebotgpt.top/blog/2.html/</guid>
       <description>&lt;p&gt;来源于：&lt;a href=&#34;https://react.docschina.org/docs/forms.html&#34;&gt;https://react.docschina.org/docs/forms.html&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;一表单&#34;&gt;一、表单&lt;/h2&gt;
 &lt;p&gt;在 React 中，html 表单元素的工作方式和其他的 DOM 元素不太一样，因为表单内部通常会保持一些内部的 &lt;code&gt;state&lt;/code&gt;，比如下面这个纯 html 表单只接受一个名称：&lt;/p&gt;
@@ -616,9 +739,9 @@
     
     <item>
       <title>React －－万物皆可组件</title>
-      <link>http://localhost:1313/blog/37.html/</link>
+      <link>http://halo.rebotgpt.top/blog/1.html/</link>
       <pubDate>Mon, 21 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/37.html/</guid>
+      <guid>http://halo.rebotgpt.top/blog/1.html/</guid>
       <description>&lt;h2 id=&#34;一react-组件是什么&#34;&gt;一、React 组件是什么？&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;组件，从概念上类似于 javascript 函数，他接受任意入参&lt;code&gt;（props）&lt;/code&gt;，并返回作用于描述页面展示内容的 React 元素。&lt;/p&gt;
@@ -702,17 +825,17 @@
     
     <item>
       <title>Search</title>
-      <link>http://localhost:1313/search/</link>
+      <link>http://halo.rebotgpt.top/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/search/</guid>
+      <guid>http://halo.rebotgpt.top/search/</guid>
       <description></description>
     </item>
     
     <item>
       <title>关于</title>
-      <link>http://localhost:1313/about/</link>
+      <link>http://halo.rebotgpt.top/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>http://halo.rebotgpt.top/about/</guid>
       <description>&lt;h3 id=&#34;1个人介绍&#34;&gt;1.个人介绍&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;author&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;halo&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
@@ -725,7 +848,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;description&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;喜欢折腾技术，研究各种奇怪的程序和网站，喜欢户外运动，热爱生活。&amp;#39;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/yangdinghui/yangdinghui/refs/heads/output/github-contribution-grid-snake.svg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;我的 &lt;a href=&#34;http://localhost:1313/plan/&#34;&gt;计划单&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;我的 &lt;a href=&#34;http://halo.rebotgpt.top/plan/&#34;&gt;计划单&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;同时将周刊一起发布到了本网站，督促自己多扩展眼界，获取更新的知识，不管是技术类型还是娱乐，让自己的容量不断 +1.&lt;/p&gt;
 &lt;!-- [提供一些免费服务](/serve/)。 --&gt;
 &lt;h3 id=&#34;2友情链接&#34;&gt;2.友情链接&lt;/h3&gt;
@@ -747,9 +870,9 @@
     
     <item>
       <title>在线服务</title>
-      <link>http://localhost:1313/serve/</link>
+      <link>http://halo.rebotgpt.top/serve/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/serve/</guid>
+      <guid>http://halo.rebotgpt.top/serve/</guid>
       <description>&lt;p&gt;提供一些免费的在线服务。&lt;/p&gt;
 &lt;h3 id=&#34;工具&#34;&gt;工具&lt;/h3&gt;
 &lt;ul&gt;
@@ -799,17 +922,17 @@ telegraph 不再支持 api 外部上传。&lt;br&gt;
     
     <item>
       <title>标签</title>
-      <link>http://localhost:1313/tags/</link>
+      <link>http://halo.rebotgpt.top/tags/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/</guid>
+      <guid>http://halo.rebotgpt.top/tags/</guid>
       <description></description>
     </item>
     
     <item>
       <title>留言</title>
-      <link>http://localhost:1313/message/</link>
+      <link>http://halo.rebotgpt.top/message/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/message/</guid>
+      <guid>http://halo.rebotgpt.top/message/</guid>
       <description>&lt;p&gt;哎呀，终于有人来啦！欢迎欢迎！这里是留言板，也是一个充满奇思妙想的地方。&lt;br&gt;
 有什么想说的都可以在这里留下你的足迹，就像小动物在树上留下酷炫的手印一样！&lt;/p&gt;
 </description>
@@ -817,9 +940,9 @@ telegraph 不再支持 api 外部上传。&lt;br&gt;
     
     <item>
       <title>计划</title>
-      <link>http://localhost:1313/plan/</link>
+      <link>http://halo.rebotgpt.top/plan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/plan/</guid>
+      <guid>http://halo.rebotgpt.top/plan/</guid>
       <description>&lt;p&gt;给自己制定一些小计划。&lt;/p&gt;
 &lt;hr&gt;
 &lt;div class=&#34;nolist&#34;&gt;
@@ -833,9 +956,9 @@ telegraph 不再支持 api 外部上传。&lt;br&gt;
     
     <item>
       <title>项目</title>
-      <link>http://localhost:1313/projects/</link>
+      <link>http://halo.rebotgpt.top/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/</guid>
+      <guid>http://halo.rebotgpt.top/projects/</guid>
       <description>&lt;h3 id=&#34;1-linuxdo-scripts&#34;&gt;1. linuxdo-scripts&lt;/h3&gt;
 &lt;p&gt;
 &lt;img src=&#34;https://img.shields.io/github/stars/dlzmoe/linuxdo-scripts?style=flat-square&#34;&gt;
@@ -851,9 +974,9 @@ telegraph 不再支持 api 外部上传。&lt;br&gt;
     
     <item>
       <title>骑行</title>
-      <link>http://localhost:1313/riding/</link>
+      <link>http://halo.rebotgpt.top/riding/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/riding/</guid>
+      <guid>http://halo.rebotgpt.top/riding/</guid>
       <description>&lt;p&gt;坐骑：&lt;br&gt;
 迪卡侬 rc120&lt;/p&gt;
 &lt;p&gt;出门运动注意安全，保持水分补充。&lt;/p&gt;

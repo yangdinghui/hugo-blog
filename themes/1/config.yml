@@ -46,3 +46,6 @@ params:
       link: /message/
     - name: 关于
       link: /about/
+services:
+  disqus:
+    shortname: halo8     
